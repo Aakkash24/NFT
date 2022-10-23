@@ -14,7 +14,7 @@ const Download = () => {
             Get the full code from GitHub
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button className={styles.btnPrimary} onClick = {() => window.open("https://github.com/Aakkash24/NFT_App")}>Source Code</button>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}
